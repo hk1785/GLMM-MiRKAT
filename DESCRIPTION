@@ -1,0 +1,12 @@
+Package: GLMMMiRKAT
+Version: 1.2
+Title: A distance-based kernel association test based on the generalized linear mixed model
+Date: 2020-02-27
+Author: Hyunwook Koh
+Maintainer: Hyunwook Koh <hkoh7@jhu.edu>
+Description: This sofware package provides facilities for GLMM-MiRKAT/aGLMM-MiRKAT which tests the association betweem microbial community (e.g., bacterial kingdom) composition and a host trait of interest (e.g., health/disease status, medical intervention, behavioral/environmental factor) based on correlated (e.g., family-based or longitudinal) microbiome studies. For the host trait of interest, Gaussian (e.g., body mass index), Binomial (e.g., disease status, treatment/placebo) or Poisson (e.g., number of tumors/treatments) traits can be handled. 
+NeedsCompilation: No
+Depends: R(>= 3.4.1)
+Imports: CompQuadForm, dirmult, ecodist, GUniFrac, lme4, MASS, Matrix, permute, phyloseq
+License: GPL-2
+URL: https://github.com/hk1785/GLMM-MiRKAT
