@@ -27,6 +27,13 @@ URL: https://github.com/hk1785/GLMM-MiRKAT
 * Koh H, Li Y, Zhan X, Chen J, Zhao N. (2019) A distance-based kernel association test based on the generalized linear mixed model for correlated microbiome studies. Front. Genet. 458(10), 1-14.
 * DOI: https://doi.org/10.3389/fgene.2019.00458
 
+## Troubleshooting Tips
+
+If you have any problems for using this R package, please report in Issues (https://github.com/hk1785/GLMM-MiRKAT/issues) or email Hyunwook Koh (hkoh@jhu.edu).
+
+* Tip 1. Depending on your pre-installed R libraries, this R package can require you to install additional R packages such as "gh", "usethis", "cli", etc using the command: install.packages("package_name").
+* Tip 2. Please make sure if you have the most recent package version.
+
 ## Installation
 
 GLMMMiRKAT
@@ -86,13 +93,6 @@ install.packages("permute")
 library(phyloseq)
 URL: https://joey711.github.io/phyloseq/
 ```
-
-## Troubleshooting Tips
-
-If you have any problems for using this R package, please report in Issues (https://github.com/hk1785/GLMM-MiRKAT/issues) or email Hyunwook Koh (hkoh@jhu.edu).
-
-* Tip 1. Depending on your pre-installed R libraries, this R package can require you to install additional R packages such as "gh", "usethis", "cli", etc using the command: install.packages("package_name").
-* Tip 2. Please make sure if you have the most recent package version.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
